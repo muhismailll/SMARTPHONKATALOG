@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcgrnk"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="240dp"
+            android:layout_height="90dp"
+            android:text="PILIHAN SMARTPONE"
+            android:textAlignment="center"
+            android:textColor="#F60B27"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.164" />
+
+        <LinearLayout
+            android:layout_width="359dp"
+            android:layout_height="197dp"
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.628">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="142dp"
+                    android:layout_height="119dp"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.104"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/vivologo" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="142dp"
+                    android:layout_height="119dp"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.843"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/samsunglogo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="394dp"
+            android:layout_height="211dp"
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.628">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="143dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="200dp"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/xiomilogo" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="142dp"
+                    android:layout_height="119dp"
+                    android:layout_marginLeft="200dp"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.817"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.753"
+                    app:srcCompat="@drawable/oppologo" />
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
